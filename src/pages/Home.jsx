@@ -7,11 +7,13 @@ import Intro from '../components/Intro';
 import Products from '../components/Products';
 import Services from '../components/Services';
 import News from '../components/News';
+import NavBar from '../components/Navbar/NavBar';
 
 
 const Home = () => {
     return (
         <>
+        <NavBar/>
             <Hero />
             <Intro />
             <Services />

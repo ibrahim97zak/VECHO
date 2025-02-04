@@ -86,7 +86,7 @@ const Contact = () => {
           <form onSubmit={sendEmail}>
             <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
               <div className="flex">
-                <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">
+                <h1 className="font-bold text-center lg:text-left text-primary uppercase text-4xl">
                   Send us a message
                 </h1>
               </div>
@@ -170,7 +170,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   id="submitBtn"
-                  className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+                  className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-primary text-gray-100 p-3 rounded-lg w-full 
                                     focus:outline-none focus:shadow-outline"
                 >
                   Send Message
@@ -178,7 +178,7 @@ const Contact = () => {
               </div>
             </div>
           </form>
-          <div className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-blue-900 rounded-2xl">
+          <div className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-primary rounded-2xl">
             <div className="flex flex-col text-white">
               <div className="flex my-4 w-2/3 lg:w-3/4">
                 <div className="flex flex-col">
@@ -211,7 +211,7 @@ const Contact = () => {
                   href="https://www.facebook.com/ENLIGHTENEERING/"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1"
+                  className="rounded-full flex justify-center bg-white h-8 text-primary  w-8  mx-1 text-center pt-1"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -227,7 +227,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/company/enlighteneering-inc-"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1"
+                  className="rounded-full flex justify-center bg-white h-8 text-primary  w-8  mx-1 text-center pt-1"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
